@@ -12,7 +12,6 @@ import net.sourceforge.jeval.function.FunctionResult;
 public abstract class AbstractFunction implements Function {
 
     public static final String DEFAULT_RESULT = "0";
-    public static final String EMPTY = "";
 
     /**
      * default result is double.

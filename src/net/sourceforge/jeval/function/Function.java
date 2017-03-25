@@ -26,6 +26,7 @@ public interface Function {
 	 static boolean isNotBlank(String str) {
 		return str != null && str.trim().length() > 0;
 	}
+	  String EMPTY = "";
 
 	/**
 	 * Returns the name of the function.
