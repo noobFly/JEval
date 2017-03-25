@@ -1,4 +1,4 @@
-package net.sourceforge.jeval.function.math.abstracts;
+package com.noob.core.abstracts;
 
 import net.sourceforge.jeval.Evaluator;
 import net.sourceforge.jeval.function.Function;
@@ -7,7 +7,7 @@ import net.sourceforge.jeval.function.FunctionException;
 import net.sourceforge.jeval.function.FunctionResult;
 
 /**
- * Created by xiongwenjun on 2016/6/23.
+ * Created by noob on 2016/6/23.
  */
 public abstract class AbstractFunction implements Function {
 

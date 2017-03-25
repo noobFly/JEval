@@ -1,4 +1,4 @@
-package net.sourceforge.jeval.function.math.abstracts;
+package com.noob.core.abstracts;
 
 import net.sourceforge.jeval.EvaluationConstants;
 import net.sourceforge.jeval.Evaluator;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * <p>
  * construction: (judgeVal, defaultVal, lowerLimit1, upperLimit1, returnVal1, lowerLimit2, upperLimit2, returnVal2, ...)
  * <p>
- * Created by xiongwenjun on 2016/6/22.
+ * Created by noob on 2016/6/22.
  */
 public abstract class AbstractBetweenFunction extends AbstractFunction {
 

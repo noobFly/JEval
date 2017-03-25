@@ -1,6 +1,6 @@
-package net.sourceforge.jeval.function.math.impl;
+package com.noob.core.abstracts.impl;
 
-import com.iboxpay.credit.core.function.abstracts.AbstractFunction;
+import com.noob.core.abstracts.AbstractFunction;
 import net.sourceforge.jeval.EvaluationConstants;
 import net.sourceforge.jeval.Evaluator;
 import net.sourceforge.jeval.function.FunctionException;
@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * All the parameters are double.
  * <p>
  * IF judgeVal=param1  RETURN return1  ELSE IF judgeVal=param2  RETURN return2  ...   ELSE  RETURN defaultVal
- * Created by xiongwenjun on 2016/6/23.
+ * Created by noob on 2016/6/23.
  */
 public class DecodeNumberFunction extends AbstractFunction {
 

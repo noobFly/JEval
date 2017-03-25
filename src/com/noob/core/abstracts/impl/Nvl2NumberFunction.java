@@ -1,12 +1,12 @@
-package net.sourceforge.jeval.function.math.impl;
+package com.noob.core.abstracts.impl;
+import com.noob.core.abstracts.AbstractFunction;
+import net.sourceforge.jeval.function.Function;
 
-import com.iboxpay.credit.core.function.abstracts.AbstractFunction;
 import net.sourceforge.jeval.EvaluationConstants;
 import net.sourceforge.jeval.Evaluator;
 import net.sourceforge.jeval.function.FunctionException;
 import net.sourceforge.jeval.function.FunctionHelper;
 import net.sourceforge.jeval.function.FunctionResult;
-import org.apache.commons.lang.StringUtils;
 
 import java.util.ArrayList;
 
@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * judgeVal is string, replace_notNull and  replace_null are double
  * <p>
  * IF judgeVal != null RETURN  replace_notNull ELSE  RETURN replace_null
- * Created by xiongwenjun on 2016/6/23.
+ * Created by noob on 2016/6/23.
  */
 public class Nvl2NumberFunction extends AbstractFunction {
     @Override
@@ -33,7 +33,7 @@ public class Nvl2NumberFunction extends AbstractFunction {
         if (list.size() == 3) {
             String judgeVal = FunctionHelper.trimAndRemoveQuoteChars(
                     list.get(0), evaluator.getQuoteCharacter());
-            result = StringUtils.isNotBlank(judgeVal) ? list.get(1) : list.get(2);
+            result = Function.isNotBlank(judgeVal) ? list.get(1) : list.get(2);
         }
 
         return numberResult(result);

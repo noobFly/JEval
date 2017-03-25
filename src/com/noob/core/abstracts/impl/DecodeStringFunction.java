@@ -1,11 +1,11 @@
-package net.sourceforge.jeval.function.math.impl;
+package com.noob.core.abstracts.impl;
 
+import com.noob.core.abstracts.AbstractFunction;
 import net.sourceforge.jeval.EvaluationConstants;
 import net.sourceforge.jeval.Evaluator;
 import net.sourceforge.jeval.function.FunctionException;
 import net.sourceforge.jeval.function.FunctionHelper;
 import net.sourceforge.jeval.function.FunctionResult;
-import net.sourceforge.jeval.function.math.abstracts.AbstractFunction;
 
 import java.util.ArrayList;
 
@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * <p>
  * IF judgeVal.equals(param1)  RETURN return1  ELSE IF judgeVal.equals(param2)  RETURN return2  ...   ELSE  RETURN defaultVal
  * <p>
- * Created by xiongwenjun on 2016/6/23.
+ * Created by noob on 2016/6/23.
  */
 public class DecodeStringFunction extends AbstractFunction {
 

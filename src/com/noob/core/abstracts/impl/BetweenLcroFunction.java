@@ -1,10 +1,11 @@
-package net.sourceforge.jeval.function.math.impl;
+package com.noob.core.abstracts.impl;
 
-import com.iboxpay.credit.core.function.abstracts.AbstractBetweenFunction;
+
+import com.noob.core.abstracts.AbstractBetweenFunction;
 
 /**
  * [ X, Y )
- * Created by xiongwenjun on 2016/6/22.
+ * Created by noob on 2016/6/22.
  */
 public class BetweenLcroFunction extends AbstractBetweenFunction {
     @Override
