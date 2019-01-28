@@ -11,7 +11,7 @@ import com.noob.expression.function.Function;
 import java.util.Map;
 
 /**
- * Created by xiongwenjun on 2016/6/28.
+ * Created by noob on 2016/6/28.
  */
 public class AnalyticAlgorithm implements IAnalyticAlgorithm {
     final BetweenLcrcFunction between_lcrc = new BetweenLcrcFunction();
